@@ -1,7 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## This funcition gerenerate a list of "metods" for defining and retriving 
+## the value and the mean of a matrix
 
 makeCacheMatrix <- function(x = matrix()) {
         s <- NULL
@@ -17,7 +15,8 @@ makeCacheMatrix <- function(x = matrix()) {
              getSolve = getSolve)
 }
 
-## Write a short comment describing this function
+## This funcition calculates the "solve" or the invertion of a non-singular
+## singular matrix have its determined equal zero
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
